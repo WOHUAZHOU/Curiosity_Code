@@ -2,9 +2,9 @@
 PImage img;
 void setup(){
 size(500,500);
-string url=https://orig00.deviantart.net/8ef8/f/2015/191/8/2/8211f5f87cd1a0f3e6f8360cb606e4c8-d90rb07.jpg
+string url="https://orig00.deviantart.net/8ef8/f/2015/191/8/2/8211f5f87cd1a0f3e6f8360cb606e4c8-d90rb07.jpg";
 img = loadImage(url,"jpg");
-noLoop;
+noLoop();
 }
 void draw(){
 image(img,0,0,500,500);
