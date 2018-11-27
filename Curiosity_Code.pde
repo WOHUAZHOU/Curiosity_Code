@@ -1,18 +1,18 @@
-PImage img;
+PImage webImg;
 
 
 void setup(){
 
 size(500,500);
 
-String url = "https://orig00.deviantart.net/8ef8/f/2015/191/8/2/8211f5f87cd1a0f3e6f8360cb606e4c8-d90rb07.jpg";
-img = loadImage(url,"jpg");
-noLoop();
+
+webImg = loadImage("https://orig00.deviantart.net/8ef8/f/2015/191/8/2/8211f5f87cd1a0f3e6f8360cb606e4c8-d90rb07.jpg");
+
 
 }
 
 void draw(){
-image(img,0,0,500,500);
+image(webImg,0,0,500,500);
 fill(102,0,102);
 rect(240.5,250.5,25,20);
 strokeWeight(5);
