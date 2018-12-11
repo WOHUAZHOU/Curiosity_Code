@@ -1,4 +1,4 @@
-PImage webImg;
+PImage a;
 
 
 void setup(){
@@ -6,13 +6,13 @@ void setup(){
 size(500,500);
 
 
-webImg = loadImage("https://orig00.deviantart.net/8ef8/f/2015/191/8/2/8211f5f87cd1a0f3e6f8360cb606e4c8-d90rb07.jpg");
+a = loadImage("abcd.jpg");
 
 
 }
 
 void draw(){
-image(webImg,0,0,500,500);
+image(a,0,0,500,500);
 fill(102,0,102);
 rect(240.5,250.5,25,20);
 strokeWeight(5);
